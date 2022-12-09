@@ -1,0 +1,108 @@
+/*IMAGENES TITULOS*/
+
+.img-1H {
+    margin:10px auto;
+	  padding:13px;
+	  background-size: 100% 100%;
+	  background-repeat:no-repeat;
+ 	  background:url("../imagenes/img-1H.jpg");
+	  background-size: cover;
+		background-attachment: fixed;
+		width:100%;
+  		height:300PX;
+  		  justify-content: center;
+		    font-size: 5rem;
+		    font-weight: 600;
+		    color: #fff;
+		    align-items: center;
+		    display: flex;
+}
+
+
+.img-2H {
+    margin:10px auto;
+	  padding:13px;
+	  background-size: 100% 100%;
+	  background-repeat:no-repeat;
+ 	  background:url("../imagenes/img-2H.jpg");
+	  background-size: cover;
+		background-attachment: fixed;
+		width:100%;
+  		height:300PX;
+  		  justify-content: center;
+		    font-size: 5rem;
+		    font-weight: 600;
+		    color: #fff;
+		    align-items: center;
+		    display: flex;
+}
+
+.img-3H {
+	  margin:10px auto;
+	  padding:13px;
+	  background-size: 100% 100%;
+	  background-repeat:no-repeat;
+ 	  background:url("../imagenes/img-3H.jpg");
+	  background-size: cover;
+		background-attachment: fixed;
+		width:100%;
+  		height:300PX;
+  		  justify-content: center;
+		    font-size: 5rem;
+		    font-weight: 600;
+		    color: #fff;
+		    align-items: center;
+		    display: flex;
+}
+
+.img-4H {
+    margin:10px auto;
+	  padding:13px;
+	  background-size: 100% 100%;
+	  background-repeat:no-repeat;
+ 	  background:url("../imagenes/img-4H.jpg");
+	  background-size: cover;
+		background-attachment: fixed;
+		  width:100%;
+  		height:300PX;
+  		  justify-content: center;
+		    font-size: 5rem;
+		    font-weight: 600;
+		    color: #fff;
+		    align-items: center;
+		    display: flex;
+}
+.img-5H {
+    margin:10px auto;
+	  padding:13px;
+	  background-size: 100% 100%;
+	  background-repeat:no-repeat;
+ 	  background:url("../imagenes/img-5H.jpg");
+	  background-size: cover;
+		background-attachment: fixed;
+		width:100%;
+  		height:300PX;
+  		  justify-content: center;
+		    font-size: 5rem;
+		    font-weight: 600;
+		    color: #fff;
+		    align-items: center;
+		    display: flex;
+}
+.img-6H {
+    margin:10px auto;
+	  padding:13px;
+	  background-size: 100% 100%;
+	  background-repeat:no-repeat;
+ 	  background:url("../imagenes/img-6H.jpg");
+	  background-size: cover;
+		background-attachment: fixed;
+		width:100%;
+  		height:300PX;
+  		  justify-content: center;
+		    font-size: 5rem;
+		    font-weight: 600;
+		    color: #fff;
+		    align-items: center;
+		    display: flex;
+}

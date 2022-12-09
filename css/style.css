@@ -1,0 +1,339 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Work+Sans:wght@400;600&display=swap');
+
+@font-face {
+	font-family: Phage_Rough;
+	src:url(fuentes/Phage_Rough.otf) ;
+}
+
+body{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	font-family: Phage_Rough, cursive;
+  font-size: 2.5rem;
+}
+
+.mediana{
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: flex;
+  position: absolute;
+    left: 10.4%;
+    top: 10%;
+    z-index: 50;
+}
+
+.cont_centrado{
+  display: flex;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.cont_ancho {
+  width:100%;
+}
+
+.cont_fijo {
+  position: fixed;
+}
+
+.section_divider h1 {
+	font-family: Phage_Rough, cursive;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+}
+/*Pie de pagina*/
+footer {
+  clear: both;
+  color: black;
+}
+
+footer .cont_ancho {
+  background-color:	#252932;;
+  display: flex;
+}
+
+footer .cont_centrado{
+  padding: 5em 0 5em 0;
+  flex-flow:row;
+  color: white;
+}
+
+footer .columna{
+    width: 100%;
+    height: 100%;
+}
+
+footer .columna p, footer .columna a {
+    text-align: center;
+}
+
+
+/*OP WINDOWS*/
+
+.centradoW {
+  position: absolute;
+  top: 107PX;
+  left: 20.4%;
+  color: white;
+   font-weight: bold;
+      z-index: 100;
+      background-image: url("../imagenes/cabecera.jpg");
+ 			background-attachment: fixed;
+}
+
+.hideW {
+    max-height: 0 !important;
+}
+
+.dropdownW{
+	border: 0.1em solid white;
+	width: 10em;
+	margin-bottom: 1em;
+}
+
+.dropdownW .titleW{
+	margin: .3em .3em .3em .3em;	
+	width: 100%;
+}
+
+.dropdownW .titleW .fa-angle-right{
+	float: right;
+	margin-right: .7em;
+	transition: transform .3s;
+}
+
+.dropdownW .menuW{
+	transition: max-height .5s ease-out;
+	max-height: 20em;
+	overflow: hidden;
+}
+
+.dropdownW .menuW .optionW{
+	margin: .3em .3em .3em .3em;
+	margin-top: 0.3em;
+}
+
+.dropdownW .menuW .optionW:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.pointerCursorW:hover{
+	cursor: pointer;
+}
+
+.rotate-90W{
+	transform: rotate(90deg);
+}
+
+/*OP UBUNTU*/
+
+.centradoU {
+  position: absolute;
+  left: 50.5%;
+  top: 107PX;
+   font-weight: bold;
+      z-index: 100;
+      color: white;
+      z-index: 100;
+      background-image: url("../imagenes/cabecera.jpg");
+ 			background-attachment: fixed;
+
+}
+
+.hideU {
+    max-height: 0 !important;
+}
+
+.dropdownU{
+	border: 0.1em solid white;
+	width: 10em;
+	margin-bottom: 1em;
+}
+
+.dropdownU .titleU{
+	margin: .3em .3em .3em .3em;	
+	width: 100%;
+}
+
+.dropdownU .titleU .fa-angle-right{
+	float: right;
+	margin-right: .7em;
+	transition: transform .3s;
+}
+
+.dropdownU .menuU{
+	transition: max-height .5s ease-out;
+	max-height: 20em;
+	overflow: hidden;
+}
+
+.dropdownU .menuU .optionU{
+	margin: .3em .3em .3em .3em;
+	margin-top: 0.3em;
+}
+
+.dropdownU .menuU .optionU:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.pointerCursorU:hover{
+	cursor: pointer;
+}
+
+.rotate-90U{
+	transform: rotate(90deg);
+}
+
+/*Header*/
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	margin-bottom:20px;
+	position: absolute;
+	z-index: 100;
+	transition: transform .3s;
+	background-image: url("../imagenes/cabecera.jpg");
+  background-attachment: fixed;
+}
+
+.wrapper {
+	font-family: Phage_Rough;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
+}
+
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:145px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:145px;
+}
+
+header nav p {
+	text-decoration: none;
+	outline: none;
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav p:hover {
+	background:#f56f3a;
+	border-radius:50px;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+
+@media screen and (max-width: 950px) {
+	header .logo .mediana,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:100px;
+	}
+
+	.header2 {
+		height:auto;
+	}
+
+	.header2 .logo .mediana,
+	.header2 nav {
+		line-height:50px;
+	}
+}
+
+/* *********************************************************
+  Loader
+********************************************************* */
+
+.loader-overlay {
+  width: 100%;
+  height: 100%;
+  background: #ECF0F1;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 9999;
+}
+
+.loader {
+  height: 50px;
+  left: 50%;
+  margin: -25px 0 0 -75px;
+  position: absolute;
+  top: 50%;
+  width: 150px;
+}
+.loader .bar {
+  background-color: #69C98C;
+  font-size: 0;
+  height: 6px;
+  border-radius: 3px;
+  opacity: 0;
+  width: 25px;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: subtleIn;
+  -webkit-animation-timing-function: ease-in-out;
+  display: inline-block;
+}
+.loader .bar:nth-child(1) {
+  -webkit-animation-delay: 0s;
+}
+.loader .bar:nth-child(2) {
+  background-color: #1abc9c;
+  -webkit-animation-delay: .3s;
+}
+.loader .bar:nth-child(3) {
+  background-color: #1AB4BC;
+  -webkit-animation-delay: .6s;
+}
+.loader .bar:nth-child(4) {
+  background-color: #1AA1BC;
+  -webkit-animation-delay: .9s;
+}
+.loader .bar:nth-child(5) {
+  background-color: #1A7EBC;
+  -webkit-animation-delay: 1.2s;
+}
+
+@-webkit-keyframes subtleIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(300%);
+    transform: translateY(300%);
+  }
+
+  30% {
+    opacity: 2;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

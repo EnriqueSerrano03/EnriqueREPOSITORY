@@ -1,0 +1,260 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 15%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+
+}
+tfoot td {
+  text-align: center;
+
+}
+thead, tfoot {
+  background: url(leopardskin.jpg);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+tbody tr {
+	  border: 2px solid purple;
+}
+
+tbody th {
+	  border: 2px solid purple;
+}
+
+tbody td {
+	  border: 2px solid purple;
+}
+
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 2px solid purple;
+}
+
+caption {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.a {
+	text-decoration: none;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.hero h1 {
+	font-size: 80px;
+}
+
+.hero p {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #113CFC;
+}
+
+.navHOME {
+	float: left;
+ width: 100px;
+}
+.nav {
+	position: relative;
+	z-index: 99;
+	background: #fff;
+	height: 80px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	background-image: url("../imagenes/cabecera.jpg");
+}
+
+.nav .a {
+	flex: 1;
+	height: 100%;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	transition: .2s ease-in-out all;
+	font-weight: 500;
+}
+
+.nav .a:hover {
+	background: rgba(0,0,0,0.2);
+}
+
+.nav .indicador {
+	width: 0px;
+	height: 7px;
+	background: #00CD92;
+	position: absolute;
+	z-index: ;
+	bottom: 0;
+	transition: .3s ease-out all;
+	/* transform: translate(-500px); */
+}
+
+.seccion {
+	min-height: 100vh;
+	max-width: 100%;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.seccion .card {
+	background: #fff;
+	max-width: 100%;
+	width: 90%;
+	height: 90%;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	align-items: center;
+}
+
+.seccion h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.seccion p {
+	line-height: 38px;
+	margin-bottom: 40px;
+	color: #494949;
+	font-size: 20px;
+}
+
+.seccion img {
+	width: 50%;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+.seccion table {
+	width: 60%;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.5); 
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	background-image: url('../imagenes/flecha.svg');
+	align-items: center;
+	display: flex;
+}
+
+@media screen and (max-width: 800px) {
+	.nav .a {
+		font-size: 14px;
+		padding: 5px;
+	}
+	.seccion table {
+		width: 100%;
+		vertical-align: top;
+		margin-bottom: 20px;
+	}
+
+
+}
+
+@media screen and (max-width: 450px) {
+	.nav .a {
+		font-size: 12px;
+	}
+	.seccion table {
+		width: 100%;
+		vertical-align: top;
+		margin-bottom: 20px;
+	}
+}
