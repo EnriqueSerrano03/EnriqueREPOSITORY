@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+<title>seleen_aliesma20@iesmedinaazahara.es 1ºASIR-FH</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/</link>
+<description>Instalacion de softwares y comparativas.</description>
+<copyright>LMAR-FHW</copyright>
+
+<item>
+
+<title>Libre office</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Libreoffice.html</link>
+<description>LibreOffice es un conjunto de aplicaciones informáticas de productividad que, por una cuota al mes, ofrece soporte personalizado para entornos profesionales, así como actualizaciones automáticas.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Ofimatica</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+
+<item>
+
+<title>Only Office</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Onlineofficer.html</link>
+<description>ONLYOFFICE ofrece una oficina completa y efectiva con la gestión de documentos, proyectos, CRM, Calendario, Correo y la red corporativa. Así no necesitas alternar entre múltiples aplicaciones para realizar tareas diferentes.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Ofimatica</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+
+<item>
+
+<title>Recuva</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/recuva.html</link>
+<description>Recuva es un programa totalmente gratuito para recuperar archivos borrados o eliminados en nuestro PC con Windows, este programa ha sido creado por los programadores del popular y exitoso CCleaner para limpiar de caché, cookies y archivos temporales nuestro PC.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Recuperación</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+
+<item>
+
+<title>TestDisk</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/testdisk.html</link>
+<description>TestDisk es un programa portable, gratuito, de código abierto, libre distribución y multiplataforma que permite recuperar trabajar con las particiones de un disco duro o memoria USB. Una de sus principales características es la posibilidad de recuperar el arranque de un disco o la definicicón de sus particiones.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Recuperación</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+
+<item>
+
+<title>Avast</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Avast.html</link>
+<description>Avast Antivirus posee las siguientes características: Bloquea virus y otro software malicioso Detecta virus, ransomware y otras amenazas en tiempo real.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Seguridad</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+
+<item>
+
+<title>ClamAV</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/clamav.html</link>
+<description>ClamAV es un software antivirus open source (de licencia GPL) para las plataformas Windows, GNU/Linux, BSD, Solaris, Mac OS X y otros sistemas operativos semejantes a Unix. La función principal de ClamAV es la identificación y bloqueo del malware provieniente del correo electrónico.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Seguridad</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+
+<item>
+
+<title>Speccy</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/speccy.html</link>
+<description>¿Qué es Speccy? Si miramos la definición que le da el propio equipo de Piriform, Speccy es un programa diseñado principalmente para ofrecernos información sobre nuestro equipo. Sus funcionalidades son muy similares a las de HWMonitor, pero con una interfaz mucho más interactiva, completa e intuitiva.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Portables</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+
+<item>
+
+<title>Blender</title>
+<link>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Blender.html</link>
+<description>Blender es un programa informático multiplataforma, dedicado especialmente al modelado, iluminación, renderizado, la animación y creación de gráficos tridimensionales. También de composición digital utilizando la técnica procesal de nodos, edición de vídeo, escultura (incluye topología dinámica) y pintura digital.</description>
+<author>seleen_aliesma20@iesmedinaazahara.es</author>
+<category>Portable</category>
+<pubDate>Wed, 02 Oct 2002 15:00:00 +0200</pubDate>
+
+</item>
+</channel>
+</rss>
