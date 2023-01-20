@@ -1,494 +1,254 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <feed xmlns="http://www.w3.org/2005/Atom"
-	xml:lang="es" 
-	xml:base="https://davalom.github.io/proyectofhw/">
+    xml:lang="es" 
+    xml:base="https://enriqueserrano03.github.io/EnriqueREPOSITORY/">
 
-	<id>https://davalom.github.io/proyectofhw/</id>
+    <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/</id>
 
-	<title>David AO - P.FHW (atom)</title>
-	<updated>2021-12-21T19:06:00+01:00</updated>
+    <title>Enrique(atom)</title>
+    <updated>2021-12-21T19:06:00+01:00</updated>
 
     <link rel="self" href="https://davalom.github.io/proyectofhw/atom.xml" type="application/atom+xml"/>
-	<link rel="alternate" href="https://davalom.github.io/proyectofhw/atom.xml" type="application/atom+xml"/>
+    <link rel="alternate" href="https://davalom.github.io/proyectofhw/atom.xml" type="application/atom+xml"/>
 
-	<author>
-		<name>David AO</name>
-		<email>dao.asir@outlook.com</email>
-	</author>
+    <author>
+        <name>Enrique Serrano Lendines</name>
+        <email>seleen_alesma20@iesmedinaazahara.es</email>
+    </author>
 
-	<category term="Software"/>
+    <category term="SoftwareFW"/>
 
-	<logo>https://davalom.github.io/proyectofhw/favicon.png</logo>
+    <logo>https://enriqueserrano03.github.io/EnriqueREPOSITORY/imagenes/MiLogo.png</logo>
 
-	<entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=portable&amp;s2=blender_p</id>
-		<title>Blender</title>
-		<updated>2022-01-12T18:30:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/portable/blender/blender.png" class="top_articulo" alt="testdisk"/>
-            <p>Blender es un programa multiplataforma dedicado principalmente al modelado tridimensional, aunque es capaz de hacer otras muchas cosas como composición digital mediante nodos, edición de vídeo, escultura y pintura digital.
+    <entry>
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Libreoffice.html</id>
+        <title>Libre Office</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-WIN-OFFI-LB/libreofficelogo.jpeg"/>
+            <p>LibreOffice es un conjunto de aplicaciones informáticas de productividad que, por una cuota al mes, ofrece soporte personalizado para entornos profesionales, así como actualizaciones automáticas.
             </p>
-            <p>Se trata de un programa gratuito y con licencia Open Source GPL3. Fue lanzado en 1994, y en los últimos años ha explotado su popularidad gracias a la versión 2.80. Entre sus características principales se encuentran:
+            <p>Algunas de sus principales ventajas sobre otras suites de oficina son:</p>
+            <ul>
+                <li>No existe ningún pago de licencias. Gratuito para cualquiera que desee utilizarlo y distribuirlo sin coste alguno</li>
+                <li>De código abierto (Open Source). Se puede distribuir, copiar y modificar el software tanto como desee siempre que se respeten las Licencias de Código Abierto de LibreOffice</li>
+                <li>Multiplataforma. Se ejecuta en múltiples sistemas operativos, tales como Microsoft Windows, Mac OS X y Linux.</li>
+                <li>Amplio soporte de idiomas. Incluye diccionarios ortográficos, de división de palabras y de sinónimos en más de 100 idiomas. Interfaz de usuario coherente. Todos los componentes tienen una apariencia similar, haciéndolos fáciles de utilizar y manejar.</li>
+                <li>Integración. Los componentes de LibreOffice se integran entre sí. Por ejemplo, todos ellos comparten un corrector ortográfico común y otras herramientas, que se usan de manera coherente en toda la suite.</li>
+                <li>Granularidad. En general, cuando se modifica una opción en la suite, esto afecta a todos los componentes. Sin embargo, las opciones de LibreOffice se pueden establecer tanto en el ámbito de componente como en el ámbito de documento.</li>
+                <li>Compatibilidad de archivos. Además del formato nativo OpenDocument, LibreOffice incluye soporte para abrir y guardar archivos en otros formatos habituales, incluyendo Microsoft Office, HTML, XML y PDF.</li>
+            </ul>
+        ]]>
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Libreoffice.html"></link>
+    </entry>
+
+    <entry>
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Onlineofficer.html</id>
+        <title>Only Office</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-UB-ONLYOFFI/onlyofficelogo.jpeg"/>
+            <p>ONLYOFFICE ofrece una oficina completa y efectiva con la gestión de documentos, proyectos, CRM, Calendario, Correo y la red corporativa.
+            </p>
+            <p>Algunas de sus principales ventajas sobre otras suites de oficina son:
+
             </p>
             <ul>
-                <li>Renderizado</li>
-                <li>Modelado 3D</li>
-                <li>Escultura</li>
-                <li>Animación</li>
-                <li>Efectos especiales</li>
-                <li>Simulaciones</li>
-                <li>Integración con herramientas del sector audovisual</li>
-                <li>Edición de vídeo</li>
-                <li>API de Python para uso de scripts</li>
+                <li>Así no necesitas alternar entre múltiples aplicaciones para realizar tareas diferentes.</li>
+                <li>Multiplataforma. Se ejecuta en múltiples sistemas operativos, tales como Microsoft Windows, Mac OS X y Linux.</li>
+                <li>Con ONLYOFFICE obtienes un solo sistema con múltiples características para organizar cada paso de tu trabajo mejorando tu productividad y optimizando los esfuerzos para lograr éxito.</li>
             </ul>
-            <p>Sus requisitos mínimos son:</p>
-            <table>
-                <tr>
-                    <td>CPU</td>
-                    <td>64bit x4 núcleos con soprtet SSE2</td>
-                </tr>
-                <tr>
-                    <td>RAM</td>
-                    <td>8GB</td>
-                </tr>
-                <tr>
-                    <td>Pantalla</td>
-                    <td>1920x1080</td>
-                </tr>
-                <tr>
-                    <td>GPU</td>
-                    <td>2GB VRAM, OpenGL 4.3</td>
-                </tr>
-            </table>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
         ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=portable&amp;s2=blender_p"></link>
-	</entry>
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Onlineofficer.html"></link>
+    </entry>
 
     <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=portable&amp;s2=krita_p</id>
-		<title>Krita</title>
-		<updated>2022-01-12T18:32:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/portable/krita/krita.png" class="top_articulo" alt="testdisk"/>
-            <p>Krita es un software de pintura digital e ilustración gratuito y libre bajo la licencia GNU GPL. Fue lanzado por primera vez en 2005 y desde entonces ha evolucionado hasta convertirse en una herramienta de pintura digital muy potente.
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/recuva.html</id>
+        <title>Recuva</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-WIN-RECUVA/recuvalogo.jpeg"/>
+            <p>Recuva es un programa totalmente gratuito para recuperar archivos borrados o eliminados en nuestro PC con Windows, este programa ha sido creado por los programadores del popular y exitoso CCleaner para limpiar de caché, cookies y archivos temporales nuestro PC.
             </p>
-            <p>Aunque el diseño de Krita está pensado para crear imágenes desde cero en lugar de manipular fotografías, soporta características similares a las de Adobe Photoshop o Gimp tales como la capacidad de trabajar con imágenes vectoriales.</p>
-            <p>Sus requisitos mínimos son:</p>
-            <table>
-                <tr>
-                    <td>CPU</td>
-                    <td>1.6Ghz 24 núcleos</td>
-                </tr>
-                <tr>
-                    <td>RAM</td>
-                    <td>2GB</td>
-                </tr>
-                <tr>
-                    <td>HDD</td>
-                    <td>300MB</td>
-                </tr>
-                <tr>
-                    <td>GPU</td>
-                    <td>OpenGL 3.0</td>
-                </tr>
-            </table>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
-        ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=portable&amp;s2=krita_p"></link>
-	</entry>
+            <p>Algunas de sus principales características son:
 
-    <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=ofimatica&amp;s2=libreoffice</id>
-		<title>Libre Office</title>
-		<updated>2022-01-12T18:40:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/ofimatica/libreoffice/libreoffice.png" class="top_articulo" alt="office"/>
-            <p>LibreOffice es una suite ofimática gratuita y de código abierto. Fue creada en 2010 como una bifurcación de OpenOffice tras la adquisición de ésta por parte de Oracle.
-                Cuenta con un procesador de texto, un editor de hojas de cálculo, un gestor de presentaciones, un gestor de bases de datos, un editor de gráficos vectoriales y un editor de fórmulas matemáticas.  
             </p>
-            <table>
-                <tr>
-                    <td>Writer</td>
-                    <td>Procesador de texto</td>
-                </tr>
-                <tr>
-                    <td>Calc</td>
-                    <td>Editor de hojas de cálculo</td>
-                </tr>
-                <tr>
-                    <td>Impress</td>
-                    <td>Gestor de presentaciones</td>
-                </tr>
-                <tr>
-                    <td>Math</td>
-                    <td>Editor de notación matemática</td>
-                </tr>
-                <tr>
-                    <td>Base</td>
-                    <td>Gestor de bases de datos</td>
-                </tr>
-                <tr>
-                    <td>Draw</td>
-                    <td>Editor de gráficos vectoriales</td>
-                </tr>
-            </table>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
+            <ul>
+                <li>Recuperar archivos borranos del equipo</li>
+                <li>Recuperar archivos de discos formatieados o dañados.</li>
+                <li>Recuperar emails.</li>
+                <li>Recuperar musica de iPod.</li>
+                <li>Disponer de asistente que simplifica enormemente el proceso.</li>
+                <li>Analizar de forma profunda para una búsqueda mas exhaustiva de los datos</li>
+                <li>Realizar un borrado seguro de los datos para impedir su futura recuperacion.</li>
+            </ul>
         ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=ofimatica&amp;s2=libreoffice"></link>
-	</entry>
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/recuva.html"></link>
+    </entry>
 
     <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=ofimatica&amp;s2=msoffice</id>
-		<title>Microsoft Office Office</title>
-		<updated>2022-01-30T18:40:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/ofimatica/msoffice/msoffice.png" class="top_articulo" alt="office"/>
-            <p>Microsoft Office 365 es una suite ofimática de código cerrado desarrollada por Microsoft. Su modelo de venta es el de la suscripción anual, con un precio 99€/año en su versión familiar para 5 usuarios. Incluye los siguientes programas:</p>
-            <table>
-                <tr>
-                    <td>Word</td>
-                    <td>Procesador de texto</td>
-                </tr>
-                <tr>
-                    <td>Excel</td>
-                    <td>Hoja de cálculo</td>
-                </tr>
-                <tr>
-                    <td>PowerPoint</td>
-                    <td>Presentaciones</td>
-                </tr>
-                <tr>
-                    <td>Publisher</td>
-                    <td>Maquetación</td>
-                </tr>
-                <tr>
-                    <td>Access</td>
-                    <td>Gestor de bases de datos</td>
-                </tr>
-                <tr>
-                    <td>Outlook</td>
-                    <td>Cliente de correo electrónico</td>
-                </tr>
-                <tr>
-                    <td>One Note</td>
-                    <td>Programa de notas</td>
-                </tr>
-            </table>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
-        ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=ofimatica&amp;s2=msoffice"></link>
-	</entry>
-    <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=ofimatica&amp;s2=wpsoffice</id>
-		<title>WPS Office Office</title>
-		<updated>2022-01-30T18:41:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/ofimatica/wpsoffice/wpsoffice.png" class="top_articulo" alt="office"/>
-            <p>WPS Office es una suite ofimática disponible para los sistemas operativos Windows, Linux, Android e iOS creada por la empresa china Kingsoft Office. La versión básica es gratuita, aunque se trata de software propietario. Su interfaz es similar a la de Microsoft Office y es compatible con los formatos propietarios de éste.</p>
-            <table>
-                <tr>
-                    <td>Documento</td>
-                    <td>Procesador de texto</td>
-                </tr>
-                <tr>
-                    <td>Spreadsheets</td>
-                    <td>Hoja de cálculo</td>
-                </tr>
-                <tr>
-                    <td>Presentación</td>
-                    <td>Presentaciones</td>
-                </tr>
-                <tr>
-                    <td>PDF</td>
-                    <td>Editor de PDF</td>
-                </tr>
-            </table>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
-        ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=ofimatica&amp;s2=wpsoffice"></link>
-	</entry>
-
-    <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=recuperar&amp;s2=recuva</id>
-		<title>Recuva</title>
-		<updated>2022-01-30T18:42:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/recuperar/recuva/recuva.png" class="top_articulo" alt="recuva"/>
-            <p>Recuva es un software de recuperación de información desarrollado por Piriform. Aunque su versión básica es gratuita, su código es privativo.</p>
-            <p>Al tratarse de un programa que necesita pocos recursos, no especifica requisitos de hardware mínimos. El un único requisito que pide es que la máquina ejecute Windows 98 o superior. Es capaz de recuperar los siguientes formatos de fichero:</p>
-            <table>
-                <tr>
-                    <td>Imágenes</td>
-                    <td>BMP, JPG, JPEG, PNG, GIF, TIFF</td>
-                </tr>
-                <tr>
-                    <td>MS Office</td>
-                    <td>DOCX, XLSX, PPTX,DOC, XLS, PPT, VSD</td>
-                </tr>
-                <tr>
-                    <td>OpenOffice</td>
-                    <td>ODT, ODP, ODS, ODG, ODF</td>
-                </tr>
-                <tr>
-                    <td>Audio</td>
-                    <td>MP3, MP2, MP1, AIF, WMA, OGG, WAV, AAC, M4A</td>
-                </tr>
-                <tr>
-                    <td>Vídeo</td>
-                    <td>MOV, MPG, MP4, 3GP, FLV, WMV, AVI</td>
-                </tr>
-                <tr>
-                    <td>Comprimidos</td>
-                    <td>RAR, ZIP, CAB</td>
-                </tr>
-                <tr>
-                    <td>Otros</td>
-                    <td>PDF, RTF, VXD, URL</td>
-                </tr>
-            </table>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
-        ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=recuperar&amp;s2=recuva"></link>
-	</entry>
-
-    <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=recuperar&amp;s2=testdisk</id>
-		<title>TestDisk</title>
-		<updated>2022-01-30T18:43:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/recuperar/testdisk/testdisk.png" class="top_articulo" alt="testdisk"/>
-            <p>Test Disk es un potente programa de recuperación de datos para usuarios avanzados. Es capaz de recuperar particiones borradas o corruptas y los ficheros que contenian. 
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/testdisk.html</id>
+        <title>TestDisk</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-UB-TESTDISK/tistdisklogo.jpeg"/>
+            <p>TestDisk es un programa portable, gratuito, de código abierto, libre distribución y multiplataforma que permite recuperar trabajar con las particiones de un disco duro o memoria USB. Una de sus principales características es la posibilidad de recuperar el arranque de un disco o la definicicón de sus particiones.
             </p>
-            <p>Es fácil de utilizar, aunque hay que tener cuidado al usarla ya que si se escoge la opción erronea se puede corromper toda la estructura del disco. Personalmente, me ha servido para recuperar la información de dos discos duros con particiones irreconocibles por el SO.</p>
-            <p>Tiene licencia GPLv2+ (Open Source) y puede recuperar particiones para los siguientes sistemas de archivos:</p>
+            <p>Algunas de sus principales características son:
+
+            </p>
             <ul>
-                <li>BeFS</li>
-                <li>BSD disklabel</li>
-                <li>CramFS</li>
-                <li>FAT12, FAT16 y FAT32</li>
-                <li>exFAT</li>
-                <li>HFS y HFS+</li>
-                <li>JFS</li>
-                <li>ext2, ext3 y ext4</li>
-                <li>Linux Raid</li>
-                <li>Linux Swap</li>
-                <li>LVM y LVM2</li>
-                <li>Mapa de particiones Mac</li>
-                <li>NSS</li>
-                <li>NTFS</li>
-                <li>ReiserFS 3.5, 3.6 y 4</li>
-                <li>i386 disklabel</li>
-                <li>UFS y UFS2</li>
-                <li>XFS</li>
+                <li>Reparar la tabla de particiones de cualquier disco de nuestro PC.</li>
+                <li>Recuperar particiones eliminadas o borradas ya sea por accidente o a sabiendas.</li>
+                <li>Recuperar los sectores de arranque de una unidad FAT32 o NTFS, las más habituales en este tipo de usos.</li>
+                <li>Reconstruir los sectores de particiones del tipo FAT12, FAT16 y FAT32.</li>
+                <li>Reparar las tablas de arranque de unidades FAT.</li>
+                <li>Reconstruir los sectores de arranque NTFS.</li>
+                <li>Reparar la MFT.</li>
+                <li>Localizar y restaurar el Superblock de EXT2, EXT3 y EXT4.</li>
             </ul>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
         ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=recuperar&amp;s2=testdisk"></link>
-	</entry>
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/testdisk.html"></link>
+    </entry>
 
     <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=antivirus&amp;s2=clamav</id>
-		<title>ClamAV</title>
-		<updated>2022-01-30T18:44:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/antivirus/clamav/clamav.png" class="top_articulo" alt="recuva"/>
-            <p>Clam Antivirus (ClamAV) es un programa Antivirus de línea de comandos gratuito y Open Source para sistemas Linux. Es usado para detectar troyanos y software malicioso, a pesar de que los sistemas Linux son atacados con mucha menos frecuencia que otros sistemas operativos.</p>
-            <p>Está disponible para las siguientes distribuciones de Linux:</p>
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Avast.html</id>
+        <title>Avast</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-WIN-AVAST/avastlogo.jpeg"/>
+            <p>Avast Antivirus posee las siguientes características: Bloquea virus y otro software malicioso Detecta virus, ransomware y otras amenazas en tiempo real.
+            </p>
+            <p>Algunas de sus principales características son:</p>
             <ul>
-                <li>Ubuntu</li>
-                <li>Debian</li>
-                <li>CentOS</li>
+                <li>Protección en tiempo real.</li>
+                <li>Protección para la mensajería instantánea.</li>
+                <li>Protección para redes P2P.</li>
+                <li>Protección para tráfico de e-mail.</li>
+                <li>Protección web.* Bloqueador de scripts malignos (versión Pro).</li>
+                <li>Protección de redes.</li>
+                <li>Escaneo en tiempo de buteo.</li>
+                <li>Actualizaciones automáticas.</li>
             </ul>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
         ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=antivirus&amp;s2=clamav"></link>
-	</entry>
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Avast.html"></link>
+    </entry>
 
     <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=antivirus&amp;s2=avast</id>
-		<title>Avast</title>
-		<updated>2022-01-30T18:45:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/antivirus/avast/avast.png" class="top_articulo" alt="avast"/>
-            <p>Avast es un software antivirus desarrollado por la empresa checa Avast Software. Se trata de software con licencia privativa y fue lanzado al mercado por primera vez en 1991. Si no se tiene en cuenta Microsoft Defender (que viene integrado en Windows), Avast es el software antivirus con más usuarios del mundo.</p>
-            <p>De las tres versiones que ofrece, la gratuita es la que ha contribuido a la gran popularidad de este antivirus.</p>
-            <p>Estas son algunas de las funciones de protección que ofrece la versión básica:</p>
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/clamav.html</id>
+        <title>ClamAV</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-UB-CLAMAV/clamavlogo.jpeg"/>
+            <p>Avast Antivirus posee las siguientes características: Bloquea virus y otro software malicioso Detecta virus, ransomware y otras amenazas en tiempo real.
+            </p>
+            <p>Algunas de sus principales características son:</p>
             <ul>
-                <li>Protección en tiempo real</li>
-                <li>Análisis heurístico</li>
-                <li>Firewall</li>
-                <li>Escudo anti Ransomware</li>
-                <li>Identificación de vulnerabilidades en la red local</li>
+                <li>Licenciado bajo GNU General Public License 2.</li>
+                <li>POSIX compatible y portable.</li>
+                <li>Escaneo rápido.</li>
+                <li>Detecta alrededor de 850 000 virus, gusanos y troyanos, incluyendo virus programados como macros de Microsoft Office.</li>
+                <li>Escaneo de archivos y ficheros comprimidos: ZIP, RAR, ARJ, TAR, Gzip, Bzip2, MS OLE2, MS Cabinet File, MS CHM, MS SZDD, BinHex, SIS, AutoIt</li>
+                <li>Soporta plataformas de 32/64 bit.</li>
+                <li>Soporta la mayoría de formatos de correo electrónico.</li>
+                <li>Soporta formatos especiales como: HTML, RTF, PDF, CryptFF, SCREnc, uuencode, TNEF.</li>
             </ul>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
         ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=antivirus&amp;s2=avast"></link>
-	</entry>
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/clamav.html"></link>
+    </entry>
 
     <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=antivirus&amp;s2=eset</id>
-		<title>eSeT</title>
-		<updated>2022-01-30T18:46:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/antivirus/eset/eset.png" class="top_articulo" alt="avast"/>
-            <p>eSeT NOD32 es un programa antivirus de pago y con licencia privativa. Está desarrollado por la empresa eSeT, de origen eslovaco.</p>
-            <p>Hay tres versiones destinadas para usuarios domésticos:</p>
-            <table>
-                <tr>
-                    <td>NOD32 Antivirus</td>
-                    <td>Protección básica</td>
-                    <td>34.96€</td>
-                </tr>
-                <tr>
-                    <td>Internet Security</td>
-                    <td>Protección básica + Protección en red y bancaria</td>
-                    <td>44.95€</td>
-                </tr>
-                <tr>
-                    <td>Smart Security</td>
-                    <td>La versión más completa, con encriptación de datos y gestor de contraseñas</td>
-                    <td>59.96€</td>
-                </tr>
-            </table>
-            <p>Puede ver como instalarlo entrando en la web.</p> 
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/speccy.html</id>
+        <title>Speccy</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-WIN-SPECCY/speccylogo.jpeg"/>
+            <p>¿Qué es Speccy? Si miramos la definición que le da el propio equipo de Piriform, Speccy es un programa diseñado principalmente para ofrecernos información sobre nuestro equipo. Sus funcionalidades son muy similares a las de HWMonitor, pero con una interfaz mucho más interactiva, completa e intuitiva.
+            </p>
+            <p>Speccy es una aplicación portable que te permite ver información detallada sobre el hardware de tu computadora. Algunas de sus características incluyen:</p>
+            <ul>
+                <li>Información sobre el procesador, incluyendo la velocidad, la cantidad de núcleos y la memoria caché.</li>
+                <li>Información sobre la memoria RAM, incluyendo la velocidad y la capacidad total.</li>
+                <li>Información sobre el almacenamiento, incluyendo la capacidad y el espacio libre de los discos duros y unidades flash.</li>
+                <li>Información sobre la placa madre, incluyendo el modelo, el fabricante y el número de serie.</li>
+                <li>Información sobre la fuente de alimentación, incluyendo la capacidad y la eficiencia.</li>
+                <li>Información sobre la tarjeta gráfica, incluyendo el modelo, el fabricante y la memoria.</li>
+                <li>Información sobre la fuente de alimentación, incluyendo la capacidad y la eficiencia.</li>
+                <li>Información sobre la temperatura de los componentes de hardware.</li>
+                <li>Interfaz gráfica fácil de usar.</li>
+                <li>Soporta varios idiomas.</li>
+                <li>Es portable, no requiere instalacion</li>
+            </ul>
         ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=antivirus&amp;s2=eset"></link>
-	</entry>
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/speccy.html"></link>
+    </entry>
 
     <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=clonar&amp;s2=clonezilla</id>
-		<title>Clonezilla</title>
-		<updated>2022-03-18T18:46:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/clonar/clonezilla/clonezilla.png" class="top_articulo" alt="testdisk"/>
-            <p>En esta práctica se creará una imagen de la información del software base de un equipo y posteriormente se realizará la restauración. Tanto la operación de creación de la imagen como la de restauración se hará de forma local.</p>
-            <p>Para desarrollar la práctica vamos a necesitar:</p>                    
+        <id>https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/Blender.html</id>
+        <title>blender</title>
+        <updated>2022-01-12T18:30:00+01:00</updated>
+        <author>
+            <name>Enrique Serrano Lendines</name>
+            <email>seleen_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <summary type="html">
+        <![CDATA[             
+            <img src="./imagenes/IMG-UB-BLENDER/blenderlogo.jpeg"/>
+            <p>Blender es un programa informático multiplataforma, dedicado especialmente al modelado, iluminación, renderizado, la animación y creación de gráficos tridimensionales. También de composición digital utilizando la técnica procesal de nodos, edición de vídeo, escultura (incluye topología dinámica) y pintura digital.
+            </p>
+            <p>Blender es un software de modelado, animación y renderizado 3D gratuito y de código abierto. Algunas de sus características incluyen:</p>
             <ul>
-                <li>Un equipo con al menos un S.O. instalado.</li>
-                <li>Un pendrive usb desde el que inciar el ordenador.</li>
-                <li>Un disco duro externo para almacenar la imagen creada.</li>
-                <li>El programa Clonezilla live para crear y restaurar la imagen.</li>
+                <li>Modelado de alta calidad: Blender incluye herramientas para modelar objetos en 3D, incluyendo herramientas de mallado, herramientas de escultura, y herramientas de modelado paramétrico.</li>
+                <li>Animación: Blender incluye herramientas para crear animaciones, incluyendo herramientas de rigging, herramientas de animación de caracteres y herramientas de animación de física.</li>
+                <li>Renderizado: Blender incluye un motor de renderizado propio llamado Cycles, que ofrece una alta calidad de imagen y soporta características avanzadas como iluminación global, sombras y reflejos.</li>
+                <li>Simulación de física: Blender incluye herramientas para simular efectos como la gravedad, la fricción, y la dinámica de fluidos.</li>
+                <li>Compatible con varios sistemas operativos: Blender es compatible con Windows, MacOS y Linux.</li>
+                <li>Portable, no requiere instalacion</li>
+                <li>Comunidad activa: Blender cuenta con una gran comunidad de usuarios y desarrolladores que comparten recursos, tutoriales y soporte en línea.</li>
             </ul>
-            <p>Puede ver como hacer la práctica entrando en la web.</p> 
         ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=clonar&amp;s2=clonezilla"></link>
-	</entry>
-
-    <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=clonar&amp;s2=clonezillasmb</id>
-		<title>Clonezilla SMB</title>
-		<updated>2022-03-18T18:50:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/clonar/clonezillasmb/clonezilla.png" class="top_articulo" alt="testdisk"/>
-            <p>En esta práctica se creará una imagen de la información del software base de un equipo y posteriormente se realizará la restauración. Tanto la operación de creación de la imagen como la de restauración se hará en una ubicación compartida en otro equipo.</p>
-            <p>Para desarrollar la práctica vamos a necesitar:</p>                    
-            <ul>
-                <li>Un equipo con al menos un S.O. instalado.</li>
-                <li>Un pendrive usb desde el que inciar el ordenador.</li>
-                <li>Un equipo con Windows o Linux + Samba instalado.</li>
-                <li>El programa Clonezilla live para crear y restaurar la imagen.</li>
-            </ul>
-            <p>Puede ver como hacer la práctica entrando en la web.</p> 
-        ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=clonar&amp;s2=clonezillasmb"></link>
-	</entry>
-
-    <entry>
-		<id>https://davalom.github.io/proyectofhw/?s1=clonar&amp;s2=clonezillasrv</id>
-		<title>Clonezilla Server</title>
-		<updated>2022-03-19T12:50:00+01:00</updated>
-		<author>
-			<name>David AO</name>
-			<email>dao.asir@outlook.com</email>
-		</author>
-		<summary type="html">
-		<![CDATA[             
-            <img src="./media/img/clonar/clonezillasrv/clonezilla.png" class="top_articulo" alt="testdisk"/>
-            <p>En esta práctica se iniciará un revidor de imágenes Clonezilla desde el que se restaurarán varios equipos de forma simultánea.</p>
-            <p>Para desarrollar la práctica vamos a necesitar:</p>                    
-            <ul>
-                <li>Un pendrive usb con DRBL.</li>
-                <li>Un equipo ejecutando clonezilla server que contenga las imágenes de disco.</li>
-                <li>Uno o varios portátilos iguales que recibirán la imagen.</li>
-            </ul>
-            <p>Puede ver como hacer la práctica entrando en la web.</p> 
-        ]]>
-		</summary>
-		<link rel="alternate" href="https://davalom.github.io/proyectofhw/?s1=clonar&amp;s2=clonezillasrv"></link>
-	</entry>
-	
+        </summary>
+        <link rel="alternate" href="https://enriqueserrano03.github.io/EnriqueREPOSITORY/paginas/BLender.html"></link>
+    </entry>
 </feed>
