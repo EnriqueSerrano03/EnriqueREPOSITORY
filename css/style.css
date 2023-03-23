@@ -136,7 +136,7 @@ footer .columna p, footer .columna a {
 
 .centradoU {
   position: absolute;
-  left: 50.5%;
+  left: 40.5%;
   top: 107PX;
    font-weight: bold;
       z-index: 100;
@@ -188,6 +188,65 @@ footer .columna p, footer .columna a {
 }
 
 .rotate-90U{
+	transform: rotate(90deg);
+}
+
+/*OP CLONEZILLA*/
+
+.centradoC {
+  position: absolute;
+  left: 60.6%;
+  top: 107PX;
+   font-weight: bold;
+      z-index: 100;
+      color: white;
+      z-index: 100;
+      background-image: url("../imagenes/cabecera.jpg");
+ 			background-attachment: fixed;
+
+}
+
+.hideC {
+    max-height: 0 !important;
+}
+
+.dropdownC{
+	border: 0.1em solid white;
+	width: 10em;
+	margin-bottom: 1em;
+}
+
+.dropdownC .titleC{
+	margin: .3em .3em .3em .3em;	
+	width: 100%;
+}
+
+.dropdownC .titleC .fa-angle-right{
+	float: right;
+	margin-right: .7em;
+	transition: transform .3s;
+}
+
+.dropdownC .menuC{
+	transition: max-height .5s ease-out;
+	max-height: 20em;
+	overflow: hidden;
+}
+
+.dropdownC .menuC .optionC{
+	margin: .3em .3em .3em .3em;
+	margin-top: 0.3em;
+}
+
+.dropdownC .menuC .optionC:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.pointerCursorC:hover{
+	cursor: pointer;
+}
+
+.rotate-90C{
 	transform: rotate(90deg);
 }
 

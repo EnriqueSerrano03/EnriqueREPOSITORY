@@ -61,6 +61,9 @@
 	<div id=IMGlinux>
 			<img class='mediana' src='imagenes/L-ubuntu.png'>
 	</div>
+	<div id=IMGclonezilla>
+			<img class='mediana' src='imagenes/L-clonezilla.png'>
+	</div>
 	<div id="idheader" class="wrapper">
 		<div id="cabecera">
 			<div class="logo titleU titleW">SOFT-SISTEM</div>
@@ -119,10 +122,20 @@
 					<p ID="PAGblender">Blender</p>
 				</nav>
 		</div>
+		<!--OP-CLONEZILLA-->
+		<div id="ClonHeader">
+			<div class="logo titleU titleW">Clonezilla</div>
+		</div>
+		<div id="ClonLocal">
+			<div class="logo titleU titleU">Clonezilla local</div>
+		</div>
+		<div id="ClonSamba">
+			<div class="logo titleU titleU">Clonecilla samba</div>
+		</div>
 	</div>
 
 </header>
-<div id="opcionesW" class='dropdownW centradoW' style="float:center;width: 30%; text-align: center; margin: 0 auto;">
+<div id="opcionesW" class='dropdownW centradoW' style="float:center;width: 20%; text-align: center; margin: 0 auto;">
 	<div id="Windows" class='titleW pointerCursorW'>Windows<i class="fa fa-angle-right"></i></div>
 
 
@@ -134,7 +147,7 @@
 	</div>
 </div>
 
-	<div id="opcionesU" class='dropdownU centradoU' style="float:left;width: 30%; text-align: center; margin: 0 auto;">
+	<div id="opcionesU" class='dropdownU centradoU' style="float:left;width: 20%; text-align: center; margin: 0 auto;">
 		<div id="Linux" class='titleU pointerCursorU'>Ubuntu<i class="fa fa-angle-right"></i></div>
 	
 	
@@ -143,6 +156,14 @@
 			<div class='optionU' id='optionU2'>Software de recuperación</div>
 			<div class='optionU' id='optionU3'>Seguridad</div>
 			<div class='optionU' id='optionU4'>Aplicaciones portables</div>
+	</div>
+</div>
+<div id="opcionesC" class='dropdownC centradoC' style="float:center;width: 20%; text-align: center; margin: 0 auto;">
+	<div id="Clonezilla" class='titleC pointerCursorC'>Copias de seguridad<i class="fa fa-angle-right"></i></div>
+
+	<div class='menuC pointerCursorC hideC'>
+		<div class='optionC' id='optionC1'>Clonezilla en Local</div>
+		<div class='optionC' id='optionC2'>Clonecilla con Samba</div>
 	</div>
 </div>
 <BR><BR><br><br><BR><BR><br>
@@ -258,53 +279,94 @@
 
 				<div class='seccion' id='4'>
 					<div class='card'>
-						<h1>Libre Office VS OnliOffice</h1>
-								<table class="table table-hover">
-								  <thead>
-								    <tr>
-								      <th scope="col"></th>
-								      <th scope="col">Ventajas</th>
-								      <th scope="col">Desventajas</th>
-								    </tr>
-								  </thead>
-								  <tbody>
-								    <tr>
-								      <th scope="row">Libre Office</th>
-								      <td><p>No existe ningún pago de licencias.</p><p>De código abierto (Open Source)</p><p>Multiplataforma</p><p>Amplio soporte de idiomas</p><p>Integración</p><p>Granularidad</p><p>Compatibilidad de archivos</p></td>
-								      <td>Online Office</td>
-								    </tr>
-								    <tr>
-								      <th scope="row">OnliOffice</th>
-								      <td>Recuva</td>
-								      <td>TestDisk</td>
-								    </tr>
-								    <tr>
-								      <th scope="row">software seguridad</th>
-								      <td>Avast</td>
-								      <td>ClamAV</td>
-								    </tr>
-								    <tr>
-								      <th scope="row">software portables</th>
-								      <td>Speccy</td>
-								      <td>Blender</td>
-								    </tr>
-								  </tbody>
-								  <tfoot>
-								    <tr>
-								      <th scope="row">Numero total de softwares</th>
-								      <td class="center" colspan="2">8</td>
-								    </tr>
-								  </tfoot>
-								</table>
+						<h1>Comparativas software offimarico</h1>
+							<table class="table table-hover " style="margin:auto">
+							  <thead>
+							    <tr>
+							      <th scope="col">Aplicación</th>
+							      <th scope="col">Descripción</th>
+							      <th scope="col">Disponible en Windows</th>
+							      <th scope="col">Disponible en Linux</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row">Microsoft Office</th>
+							      <td>Suite de aplicaciones de ofimática de Microsoft, incluye Word, Excel, PowerPoint, Outlook, Access, y otras herramientas.</td>
+							      <td>Sí</td>
+							      <td>No disponible de forma nativa, pero es posible utilizarla a través de emuladores o programas de compatibilidad como Wine.</td>
+							    </tr>
+							    <tr>
+							      <th scope="row">LibreOffice</th>
+							      <td>Suite de aplicaciones de ofimática gratuita y de código abierto, incluye Writer, Calc, Impress, Draw, Math, y Base.</td>
+							      <td>Sí</td>
+							      <td>Sí</td>
+							    </tr>
+							    <tr>
+							      <th scope="row">Google Docs</th>
+							      <td>Plataforma de ofimática basada en la nube de Google, incluye Documentos, Hojas de cálculo, Presentaciones, Formularios, y otros servicios.</td>
+							      <td>Sí (a través del navegador web)</td>
+							      <td>Sí (a través del navegador web)</td>
+							    </tr>
+							    <tr>
+							      <th scope="row">WPS Office</th>
+							      <td>Suite de ofimática que incluye Writer, Spreadsheets, y Presentation.</td>
+							      <td>Sí</td>
+							      <td>Sí</td>
+							    </tr>
+							    <tr>
+							      <th scope="row">OnlyOffice</th>
+							      <td>Suite de ofimática en línea gratuita y de código abierto, incluye Documentos, Hojas de cálculo y Presentaciones.</td>
+							      <td>Sí (a través del navegador web)</td>
+							      <td>Sí (a través del navegador web)</td>
+							    </tr>
+							    <tr>
+							      <th scope="row">Calligra Suite</th>
+							      <td>Suite de ofimática gratuita y de código abierto que incluye Words, Sheets, Stage y Plan.</td>
+							      <td>No</td>
+							      <td>Sí</td>
+							    </tr>
+							  </tbody>
+							</table>
+
 						</div>
 					</div>
 		<div class="img-4H section_divider"><center><h1>Comparativa Recuperación</h1></center></div>
 
 				<div class='seccion' id='5'>
 					<div class='card'>
-						<h1>Comparativa software recuperación</h1>
-						<img src='imagenes/IMG-WIN-OFFI-LB/paso3.png' alt=''>
-						<p>A continuación seleccionamos la opción de crear un acceso directo al escritorio para que sea más cómodo iniciar el programa y le damos al botón de instalar. También si lo deseamos podemos elegir la casilla de inicio al arrancar el sistema pero no es recomendable si tienes escasos recursos hardware ya que puede ralentizar tu pc. </p>
+						<table class="table table-hover" style="margin:auto">
+						  <thead>
+						    <tr>
+						      <th scope="col"></th>
+						      <th scope="col">Recuva (Windows)</th>
+						      <th scope="col">TestDisk (Linux)</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <th scope="row">Tipo de licencia</th>
+						      <td>Freemium/Pago</td>
+						      <td>Open source</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Soporte de sistemas de archivos</th>
+						      <td>FAT, NTFS, exFAT</td>
+						      <td>FAT, NTFS, EXT, HFS, HFS+, exFAT</td>
+						    </tr>
+						    <tr>
+						      <th scope="col">Interfaz de usuario</th>
+						      <td>Interfaz gráfica de usuario fácil de usar</td>
+						      <td>Interfaz de línea de comandos</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Características adicionales</th>
+						      <td>Recuperación de archivos eliminados, herramientas para borrar archivos de forma segura</td>
+						      <td>Restauración de particiones y registros de arranque, reparación de tablas de particiones</td>
+						    </tr>
+						  </tbody>
+						</table>
+
 					</div>
 				</div>
 		<div class="img-5H section_divider"><center><h1>Comparativa Seguridad</h1></center></div>
@@ -312,17 +374,95 @@
 				<div class='seccion' id='6'>
 					<div class='card'>
 						<h1>Comparativa software seguridad</h1>
-						<img src='imagenes/IMG-WIN-OFFI-LB/paso3.png' alt=''>
-						<p>A continuación seleccionamos la opción de crear un acceso directo al escritorio para que sea más cómodo iniciar el programa y le damos al botón de instalar. También si lo deseamos podemos elegir la casilla de inicio al arrancar el sistema pero no es recomendable si tienes escasos recursos hardware ya que puede ralentizar tu pc. </p>
+							<table class="table table-hover" style="margin:auto">
+								<thead>
+								  <tr>
+								    <th scope="col">Software de seguridad</th>
+								    <th scope="col">Windows</th>
+								    <th scope="col">Linux</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+								    <th scope="row">Firewall</th>
+								    <td>Windows tiene un firewall incorporado que es fácil de usar y se configura automáticamente para bloquear conexiones no autorizadas.</td>
+								    <td>Linux tiene un firewall llamado iptables que ofrece más opciones de configuración, pero que puede ser más difícil de usar para los usuarios no técnicos.</td>
+								  </tr>
+								  <tr>
+								    <<th scope="row">Antivirus</th>
+								    <td>Hay una gran cantidad de software antivirus disponibles para Windows, tanto gratuitos como de pago.</td>
+								    <td>La mayoría de los usuarios de Linux no usan antivirus, pero hay algunas opciones disponibles, como ClamAV. Los virus son menos comunes en Linux debido a que la plataforma es menos popular entre los hackers.</td>
+								  </tr>
+								  <tr>
+								    <th scope="row">Actualizaciones</th>
+								    <td>Las actualizaciones de seguridad de Windows son frecuentes y requieren reiniciar la computadora para completarlas.</td>
+								    <td>Las actualizaciones de seguridad de Linux son menos frecuentes y no suelen requerir reiniciar la computadora.</td>
+								  </tr>
+								  <tr>
+								    <th scope="row">Accesos remotos</th>
+								    <td>Windows tiene una herramienta de acceso remoto incorporada llamada Escritorio Remoto, que puede ser peligrosa si se utiliza sin medidas de seguridad adecuadas.</td>
+								    <td>Linux también tiene herramientas de acceso remoto, pero requieren más configuración para ser seguras.</td>
+								  </tr>
+								  <tr>
+								    <th scope="row">Protección de datos</th>
+								    <td>Windows incluye BitLocker para cifrar datos, pero solo está disponible en las ediciones Pro y Enterprise.</td>
+								    <td>Linux incluye herramientas de cifrado gratuitas y de código abierto, como LUKS, que pueden ser utilizadas en cualquier versión del sistema operativo.</td>
+								  </tr>
+								</tbody>
+							</table>
+
 					</div>
 				</div>
 		<div class="img-6H section_divider"><center><h1>Comparativa Portables</h1></center></div>
 
 				<div class='seccion' id='7'>
 					<div class='card'>
-						<h1>Comparativa software portables</h1>
-						<img src='imagenes/IMG-WIN-OFFI-LB/paso4.png' alt=''>
-						<p>Ahora os aparecerá una ventana emergente en la que le tenemos que dar a SÍ para darle los permisos necesarios. </p>
+						<table>
+						<thead>
+						  <tr>
+						    <th scope="col">Software</th>
+						    <th scope="col">Windows</th>
+						    <th scope="col">Linux</th> 
+						  </tr>
+		      			</thead>
+						 <tbody>
+						  <tr>
+						    <th scope="row">Firefox</th>
+						    <td><a href="https://portableapps.com/apps/internet/firefox_portable">Firefox Portable</a></td>
+						    <td><a href="https://portablelinuxapps.org/">Portable Linux Apps</a></td>
+						  </tr>
+						  <tr>
+						    <th scope="row">LibreOffice</th>
+						    <td><a href="https://portableapps.com/apps/office/libreoffice_portable">LibreOffice Portable</a></td>
+						    <td><a href="https://www.appimagehub.com/p/1197342/">AppImage LibreOffice</a></td>
+						  </tr>
+						  <tr>
+						    <th scope="row">VLC</th>
+						    <td><a href="https://portableapps.com/apps/music_video/vlc_portable">VLC Portable</a></td>
+						    <td><a href="https://www.appimagehub.com/p/1169971/">AppImage VLC</a></td>
+						  </tr>
+						  <tr>
+						    <th scope="row">GIMP</th>
+						    <td><a href="https://portableapps.com/apps/graphics_pictures/gimp_portable">GIMP Portable</a></td>
+						    <td><a href="https://www.appimagehub.com/p/1241841/">AppImage GIMP</a></td>
+						  </tr>
+						  <tr>
+						    <th scope="row">Notepad++</th>
+						    <td><a href="https://portableapps.com/apps/development/notepadpp_portable">Notepad++ Portable</a></td>
+						    <td><a href="https://www.appimagehub.com/p/1234241/">AppImage Notepad++</a></td>
+						  </tr>
+						  <tr>
+						    <th scope="row">Speccy</th>
+						    <td><a href="https://www.ccleaner.com/es-es/speccy/download">speccy Portable</a></td>
+						    <td>x</td>
+						  </tr>
+						  <tr>
+						    <th scope="row">Blender</th>
+						    <td><a href="https://www.blender.org/">Blender Portable</a></td>
+						    <td>x</td>
+						  </tr>
+						</table>
+					</tbody>
 					</div>
 				</div>
 			</div>
@@ -339,6 +479,9 @@
 <div id=contentPAG-TESTDISK></div>
 <div id=contentPAG-CLAMAV></div>
 <div id=contentPAG-BLENDER></div>
+<!--PAGINAS COPIAS DE SEGURIDAD-->
+<div id=contentPAG-CLONLOCAL></div>
+<div id=contentPAG-CLONSAMBA></div>
 
 <span class="ir-arriba icon icon-arrow-up2"><i class="fa-solid fa-arrow-up"></i></span>
 

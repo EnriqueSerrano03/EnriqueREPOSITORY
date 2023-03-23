@@ -200,6 +200,14 @@ caption {
 }
 
 .seccion img {
+	border-radius: 5px;
+	width: 50%;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+.seccion video {
+	border-radius: 5px;
 	width: 50%;
 	vertical-align: top;
 	margin-bottom: 20px;
